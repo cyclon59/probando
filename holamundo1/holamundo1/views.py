@@ -2,7 +2,7 @@ import datetime
 from django.http import HttpResponse
 
 def saludo(request):
-    docum= "<h1>Hola Alumnos bienvenidos al DJANGO¡¡¡¡¡</h1>"
+    docum= "<h1>Hola Alumnos bienvenidos al DJANGO!¡¡¡¡¡</h1>"
     return HttpResponse(docum)
 def nosvemos(request):
     return HttpResponse("Nos velmont")
