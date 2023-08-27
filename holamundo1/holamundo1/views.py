@@ -16,7 +16,7 @@ def fechaactual(request):
             </html>"""%fecha_actual
     return HttpResponse(docum)
 def calculaedad(request,edad,agno):
-    #edadactual=1889
+    #edadactual=18892
     periodo=agno-2023
     edadfutura=edad+periodo
     docum= """
