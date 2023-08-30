@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Información del Usuario</h1>
+    <img src="{%static "img/chancho.jpg" %}" alt="">
+    <div>
+        <ul>
+            <li>ID:{{ID}}</li>
+          
+            <li>Nombre: {{nombre}}</li>
+           
+            <li>Email: {{email}}</li>
+        </ul>
+    </div>
+</body>
+</html>
